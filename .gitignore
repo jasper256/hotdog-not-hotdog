@@ -134,3 +134,7 @@ src/test_imgs.pickle
 src/test_labels.pickle
 src/train_labels.pickle
 src/train_imgs.pickle
+
+# keras model
+src/hotdog-not-hotdog-classifier/
+src/hotdog-not-hotdog-classifier/*
