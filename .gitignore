@@ -130,3 +130,7 @@ dmypy.json
 
 # Pickle, used for storing data
 .pickle
+src/test_imgs.pickle
+src/test_labels.pickle
+src/train_labels.pickle
+src/train_imgs.pickle
