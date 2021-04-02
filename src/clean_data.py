@@ -36,6 +36,10 @@ train_labels = np.array([data[1] for data in train])
 test_imgs = np.array([data[0] for data in test])
 test_labels = np.array([data[1] for data in test])
 
+# Srink pixel values from [0, 255] to [0, 1]
+train_imgs = train_imgs / 255.0
+test_imgs = test_imgs / 255.0
+
 # Save processed data
 with open("train_imgs.pickle", "wb") as f:
     pickle.dump(train_imgs, f)
