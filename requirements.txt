@@ -1,3 +1,4 @@
+absl-py==0.12.0
 alabaster==0.7.12
 altair==4.1.0
 anaconda-client==1.7.2
@@ -11,6 +12,7 @@ asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
 astor==0.8.1
 astroid==2.1.0
 astropy==3.2.1
+astunparse==1.6.3
 async-generator==1.10
 atomicwrites==1.4.0
 attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
@@ -64,15 +66,21 @@ fastcache==1.1.0
 filelock @ file:///home/linux1/recipes/ci/filelock_1610993975404/work
 flake8 @ file:///tmp/build/80754af9/flake8_1615834841867/work
 Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+flatbuffers==1.12
 fsspec @ file:///tmp/build/80754af9/fsspec_1616582262277/work
 future==0.18.2
+gast==0.3.3
 gevent @ file:///C:/ci/gevent_1616773028237/work
 gitdb==4.0.7
 GitPython==3.1.14
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 gmpy2==2.0.8
+google-auth==1.28.0
+google-auth-oauthlib==0.4.4
+google-pasta==0.2.0
 greenlet @ file:///C:/ci/greenlet_1611958376725/work
-h5py==2.9.0
+grpcio==1.32.0
+h5py==2.10.0
 HeapDict==1.0.1
 html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
@@ -103,6 +111,8 @@ jupyterlab @ file:///tmp/build/80754af9/jupyterlab_1616167805030/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1616084982511/work
 jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
 keyring @ file:///C:/ci/keyring_1614630298708/work
 kiwisolver @ file:///C:/ci/kiwisolver_1612282618948/work
 lazy-object-proxy==1.3.1
@@ -110,6 +120,7 @@ libarchive-c @ file:///home/linux1/recipes/ci/python-libarchive-c_1610974153025/
 llvmlite==0.29.0
 locket==0.2.1
 lxml @ file:///C:/ci/lxml_1616443391272/work
+Markdown==3.3.4
 MarkupSafe @ file:///C:/ci/markupsafe_1594405949945/work
 matplotlib @ file:///C:/ci/matplotlib-base_1603356257853/work
 mccabe==0.6.1
@@ -136,10 +147,13 @@ nose @ file:///tmp/build/80754af9/nose_1606773131901/work
 notebook @ file:///C:/ci/notebook_1616443616158/work
 numba==0.45.1
 numexpr==2.7.0
-numpy==1.20.1
+numpy==1.19.5
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
+oauthlib==3.1.0
 olefile==0.46
+opencv-python==4.5.1.48
 openpyxl @ file:///tmp/build/80754af9/openpyxl_1615411699337/work
+opt-einsum==3.3.0
 packaging @ file:///tmp/build/80754af9/packaging_1611952188834/work
 pandas==0.25.1
 pandocfilters @ file:///C:/ci/pandocfilters_1605102427207/work
@@ -166,6 +180,8 @@ psutil @ file:///C:/ci/psutil_1612298033174/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 py @ file:///tmp/build/80754af9/py_1607971587848/work
 pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
 pycodestyle @ file:///home/ktietz/src/ci_mi/pycodestyle_1612807597675/work
 pycosat==0.6.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
@@ -207,7 +223,9 @@ qtconsole @ file:///tmp/build/80754af9/qtconsole_1616775094278/work
 QtPy==1.9.0
 regex @ file:///C:/ci/regex_1616096096031/work
 requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+requests-oauthlib==1.3.0
 rope==0.14.0
+rsa==4.7.2
 Rtree==0.9.4
 ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016865685/work
 scikit-image==0.15.0
@@ -218,7 +236,7 @@ selenium==3.141.0
 Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
 simplegeneric==0.8.1
 singledispatch @ file:///tmp/build/80754af9/singledispatch_1614366001199/work
-six==1.12.0
+six @ file:///C:/ci/six_1605205426665/work
 smmap==4.0.0
 sniffio @ file:///C:/ci/sniffio_1614030522573/work
 snowballstemmer @ file:///tmp/build/80754af9/snowballstemmer_1611258885636/work
@@ -241,6 +259,11 @@ streamlit==0.79.0
 sympy @ file:///C:/ci/sympy_1608137734695/work
 tables==3.5.2
 tblib @ file:///tmp/build/80754af9/tblib_1597928476713/work
+tensorboard==2.4.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.4.1
+tensorflow-estimator==2.4.0
+termcolor==1.1.0
 terminado==0.9.3
 testpath @ file:///home/ktietz/src/ci/testpath_1611930608132/work
 textdistance @ file:///tmp/build/80754af9/textdistance_1612461398012/work
@@ -267,7 +290,7 @@ widgetsnbextension==3.5.1
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306165655/work
 win-unicode-console==0.5
 wincertstore==0.2
-wrapt==1.10.11
+wrapt==1.12.1
 xlrd @ file:///tmp/build/80754af9/xlrd_1608072521494/work
 XlsxWriter @ file:///home/ktietz/src/ci_ipy2/xlsxwriter_1612556818988/work
 xlwings==0.23.0
