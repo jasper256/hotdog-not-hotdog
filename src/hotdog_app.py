@@ -27,3 +27,5 @@ if file is not None:
         st.write("Processing Complete: Hotdog")
     else:
         st.write("Processing Complete: Not Hotdog")
+
+st.write("View the code on GitHub: https://github.com/jasper256/hotdog-not-hotdog")
