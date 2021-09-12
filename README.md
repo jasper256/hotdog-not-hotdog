@@ -14,7 +14,7 @@ $ python train.py
 If you wish, you can modify either or both of these files in an attempt to improve accuracy, reduce, loss, or decrease training time of the model.
 Finally, run the app with
 ```
-streamlit run hotdog_app.py
+$ streamlit run hotdog_app.py
 ```
 
 ## Contributing
